@@ -17,3 +17,8 @@ git add start.txt
 git commit -m "added a start.txt"
 git push origin master
 
+git init
+git add .
+
+rm -rf web-project
+
