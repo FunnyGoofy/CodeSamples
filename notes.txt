@@ -22,3 +22,17 @@ git add .
 
 rm -rf web-project
 
+git diff
+git difftool  //working area and staging area
+
+git diff HEAD //working area and committing area
+git difftool HEAD  //working area and committing area
+
+git diff --staged HEAD //staging area and committing area
+git difftool --staged HEAD //staging area and committing area
+
+git diff ae6f872 HEAD
+git difftool ae6f872 HEAD
+
+git diff HEAD HEAD^
+git difftool HEAD HEAD^
