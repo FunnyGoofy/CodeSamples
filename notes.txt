@@ -36,3 +36,15 @@ git difftool ae6f872 HEAD
 
 git diff HEAD HEAD^
 git difftool HEAD HEAD^
+
+git diff master origin/master
+
+git branch -a //list
+git branch dev //create a new branch
+git checkout dev //switch branch
+git branch -m dev development
+git branch -d development
+git checkout -b newdev //create a new branch and check it out
+
+
+
