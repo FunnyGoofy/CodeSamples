@@ -53,5 +53,3 @@ git difftool master dev
 git merge dev
 git branch -d dev
 git merge dev --no-fff
-
-
