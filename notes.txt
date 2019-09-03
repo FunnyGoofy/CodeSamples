@@ -46,5 +46,12 @@ git branch -m dev development
 git branch -d development
 git checkout -b newdev //create a new branch and check it out
 
+//before merge
+git checkout master
+git diff master dev
+git difftool master dev
+git merge dev
+git branch -d dev
+
 
 
