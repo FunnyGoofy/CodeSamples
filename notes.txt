@@ -1,0 +1,19 @@
+git version
+
+git config --global user.name "peng wang"
+git config --global user.email "pmjz.wang@gmail.com"
+
+git config --global --list
+
+git clone https://github.com/FunnyGoofy/CodeSamples
+ls
+cd CodeSamples
+git status
+
+echo "Test Git quick Start demo" >> start.txt
+ls
+cat start.txt
+git add start.txt
+git commit -m "added a start.txt"
+git push origin master
+
